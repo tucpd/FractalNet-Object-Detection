@@ -18,6 +18,7 @@ project/
 
 ## Dataset prepare
 The model use data pascal VOC format with folder structure:
+```
 data/ 
 ├── train/ 
     │ ├── images/ 
@@ -38,7 +39,7 @@ data/
         │ └── ... 
     └── annotations/ 
         └── ...
-
+```
 Each file xml contain info about object in image, include class name and bounding box.
 
 ### Convert dataset structure
